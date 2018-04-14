@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="bootstrap/js/jquery.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <title>Pagina con bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Falconmasters</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#btn-colapsar">
+                        <span class="sr-only">Navegacion</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Elementos del menu -->
+
+                <div class="collapse navbar-collapse" id="btn-colapsar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Productos
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Computadoras</a>
+                                </li>
+                                <li>
+                                    <a href="#">Laptops</a>
+                                </li>
+                                <li>
+                                    <a href="#">Smartphones</a>
+                                </li>
+                                <li>
+                                    <a href="#">Drones</a>
+                                </li>
+                                <li>
+                                    <a href="#">Accesorios</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <!-- Formulario de busqueda -->
+                    <form action="" class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" placeholder="En que piensas?" class="form-control">
+                            <button type="submit" class="btn btn-default">Buscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <!-- Slideshow -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" id="slider" data-ride="carousel">
+                        <!-- Indicadores -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider" data-slide-to="1"></li>
+                            <li data-target="#slider" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Contenedor Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="imgb/s1.jpg" alt="s1">
+                            </div>
+
+                            <div class="item">
+                                <img src="imgb/s2.jpg" alt="s1">
+                            </div>
+
+                            <div class="item">
+                                <img src="imgb/s3.jpg" alt="s1">
+                            </div>
+                        </div>
+
+                        <!-- Controles -->
+                        <a href="#slider" class="left carousel-control" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a href="#slider" class="right carousel-control" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galeria -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1 class="text-center">Galeria</h1>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/1.jpg" alt="1">
+                        </a>
+                        <div class="caption">
+                            <h3>Iphone 6</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/2.jpg" alt="2">
+                        </a>
+                        <div class="caption">
+                            <h3>Desktop PC</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/3.jpg" alt="3">
+                        </a>
+                        <div class="caption">
+                            <h3>Cannon 4K</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/4.jpg" alt="4">
+                        </a>
+                        <div class="caption">
+                            <h3>Apple Watch</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/5.jpg" alt="5">
+                        </a>
+                        <div class="caption">
+                            <h3>Apple Keyboard</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/6.jpg" alt="6">
+                        </a>
+                        <div class="caption">
+                            <h3>Ipad 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/7.jpg" alt="7">
+                        </a>
+                        <div class="caption">
+                            <h3>Mac Book Air</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="imgb/8.jpg" alt="8">
+                        </a>
+                        <div class="caption">
+                            <h3>Old Camera</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit!</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-default">Detalles</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                    <p class="pull-left">
+                        Falconmasters.com 
+                        <a href="#">Acerca de</a> 
+                        <a href="#">Contacto</a>
+                    </p>
+
+                    <p class="pull-right">
+                        <a href="#">Subir al Inicio</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
